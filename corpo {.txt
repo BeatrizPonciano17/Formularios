@@ -1,0 +1,46 @@
+corpo {
+    família da fonte : Sans-serif;
+    cor de fundo : Azul claro;
+}
+
+. principal {
+    alinhar-itens : centro;
+    justificar o conteúdo : centro;
+    direção flexível : coluna;
+    display : flex;
+}
+
+seção {
+    cor de fundo : branco;
+    raio da borda :  10 px ;
+    largura :  100 % ;
+    preenchimento :  1,75 rem ;
+    largura máxima :  45 rem ;
+    dimensionamento da caixa : caixa de borda;
+    margem inferior :  1 rem ;
+    display : flex;
+    direção flexível : coluna;
+}
+
+input {
+    fronteira : nenhum;
+    margem superior :  2 rem ;
+    alinhamento de texto : centro;
+    enchimento :  1,5 % ;
+    borda inferior :  0,1 rem sólido;
+    altura :  3,25 rem ;
+    largura :  100 % ;
+    dimensionamento da caixa : caixa de borda;
+}
+
+. botao {
+    raio da borda :  7 px ;
+    margem superior :  2 rem ;
+    enchimento :  3 % ;
+    tamanho da fonte :  100 % ;
+    cor de fundo :  #2a3465 ;
+    fronteira : nenhum;
+}
+
+. sucesso {
+    alinhamento de texto : centro;

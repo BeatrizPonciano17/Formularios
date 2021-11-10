@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device.width, initial.scale=1.0">
+    <link rel="stylesheet" type="text/Dança" href="Formulário Dança" mdeia="">
+    <title>Cadrasto</title>
+</head>
+
+<body>
+
+    <div class="campo">
+        <h1 id="título">Cadastro de Contato</h1>
+        <p id="subtítulo">Complete com suas informações</p>
+        <br>
+    </div>
+
+    <forms>
+        <fieldiset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="name" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldiset>
+
+        <div class="campo">
+            <label for="email"><strong>E-mail</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="campo">
+            <label>O que você faz da vida?</label><br>
+            <label>
+                <input type="radio" name="devweb" value="estuda" checked>Estuda<br>
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="trabalha">Trabalha<br>
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="Outro">Outro<br>
+            </label>
+        </div>
+
+        <div class="campo">
+            <label for="Idade"><strong>Qual a sua faixa etaria de idade?</strong></label>
+            <select id="Idade">
+                <options selected disabled value="">Selecione</options>
+                <options>18 - 24 anos</options>
+                <options>24 - 30 anos</options>
+                <options>30 para +</options>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label>Selecione alguns hobbies:</label>
+                <input type="checkbox" id="hobbie1" name="hobbie1" value="Canto"><br>
+                <label for="hobbie1">Canto</label>
+                <input type="checkbox" id="hobbie2" name="hobbie2" value="Dança"><br>
+                <label for="hobbie2">Dança</label>
+                <input type="checkbox" id="hobbie3" name="hobbie3" value="Leitura"><br>
+                <label for="hobbie3">Leitura</label>
+                <input type="checkbox" id="hobbie4" name="hobbie4" value="Pintura"><br>
+                <label for="hobbie4">Pintura</label>
+                <input type="checkbox" id="hobbie5" name="hobbie5" value="Academia"><br>
+                <label for="hobbie5">Academia</label>
+                <input type="checkbox" id="hobbie6" name="hobbie6" value="Música"><br>
+                <label for="hobbie6">Música</label>
+                <input type="checkbox" id="hobbie7" name="hobbie7" value="Assistir filmes/séries"><br>
+                <label for="hobbie7">Assistir filmes/séries</label>
+        </fieldset>
+
+        <div class="campo">
+            <br>
+            <label>Conte um pouco sobre você!</label>
+            <textarea row="6" id="você" name="você"></textarea>
+        </div>
+
+        <button class="botão" type="submit">Concluído!</button>
+
+    </forms>
+</body>
+
+</html>

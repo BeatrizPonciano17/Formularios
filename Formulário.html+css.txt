@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <title>Formulário</title>
+</head>
+<style>
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: 0;
+       font-family: sans-serif;
+   }
+   body{
+       background-color: royalblue;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: 100% 100%; 
+    }
+    .form{
+       background: #d3d3d3;
+       width: 50%;
+       height: 70%;
+       margin:0 auto;
+       text-align: center;
+       border: 2px solid #069;
+       border-radius: 10px;
+    }
+    h1{
+        background: #069;
+    }
+    imput,select{
+        border-radius: 10px;
+        height: 30px;
+        border: none; 
+    }
+    input[type="submit"]{
+        cursor: pointer;
+        border-radius: 5px;
+        border: 5px;
+        width: 80px;
+        height: 35px;
+    }
+    input[type="button"]{
+        cursor: pointer;
+        border-radius: 5px;
+        border: 5px;
+        width: 80px;
+        height: 35px;
+    }    
+    input[type="submit"]:hover{
+        background: #069;
+        color: #fff;
+    }
+    input[type="button"]:hover{
+        background: #069;
+        color: #fff;
+    }*
+</style>
+<body>
+    <div class="form">
+        <form action="index.php"><br>
+            <h1>Cadrastro</h1><br>
+            <label for="nome">Nome:</label>
+            <input type="text"size="40"placeholder="Nome Completo">
+            <label for="cpf">CPF:</label>
+            <input type="text"placeholder="231.231.321-00"><br><br>
+            <label for="email">Email</label>
+            <input type="text"size="40"placeholder="Email Válido">
+            <label for="rg">RG:</label>
+            <input type="text"placeholder="147.147.147-00"><br><br>
+            <label for="sexo">Sexo</label>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="opcao" id="op1">
+            <label for="fem">Feminino</label>
+            <input type="radio" name="opcao" id="op1">
+            <label for="outro">Outros</label>
+            <input type="radio' name="opcao" id="op1"><br><br>
+            <h2>Endereço</h2><br><br>
+            <label for="uf">Estado:</label:
+            <select name="estado" id="uf">
+                <option value="0">Escolha sua Região</option>
+                <optgroup label="Norte"></optgroup>
+                    <optgroup value="1">Acre</optgroup>
+                    <optgroup value="2">Amazonas</optgroup>
+                    <optgroup value="3">Amapá</optgroup>
+                    <optgroup value="4">Pará</optgroup>
+                    <optgroup value="5">Rondônia</optgroup>
+                    <optgroup value="6">Roraima</optgroup>
+                    <optgroup value="7">Tocantins</optgroup>
+                <optgroup label="Sul"></optgroup>
+                    <optgroup value="8">Paraná</optgroup>
+                    <optgroup value="9">Santa Catarina</optgroup>
+                    <optgroup value="10">Rio Grande do Sul</optgroup>
+                <optgroup label="Centro-Oeste"></optgroup>
+                    <optgroup value="11">Goiás</optgroup>
+                    <optgroup value="12">Mato Grosso</optgroup>
+                    <optgroup value="13">Mato Grosso do Sul</optgroup>
+                    <optgroup value="14">Distrito Federal</optgroup>
+                <optgroup label="Nordeste"></optgroup>
+                    <optgroup value="15">Alagoas</optgroup>
+                    <optgroup value="16">Bahia</optgroup>
+                    <optgroup value="17">Ceará</optgroup>
+                    <optgroup value="18">Maranhão</optgroup>
+                    <optgroup value="19">Piauí</optgroup>
+                    <optgroup value="20">Pernambuco<optgroup>
+                    <optgroup value="21">Paraíba<optgroup>
+                    <optgroup value="22">Rio Grande do Norte</optgroup>
+                    <optgroup value="23">Sergipe</optgroup>
+               <optgroup label="Sudeste"></optgroup>
+                    <optgroup value="24">Espírito Santo</optgroup>
+                    <optgroup value="25">Minas Gerais</optgroup>
+                    <optgroup value="26">Rio de Janeiro<optgroup>
+                    <optgroup value="27">São Paulo</optgroup>
+            </select>     
+            <label for="cidade">Cidade:</label>
+            <input type="text"placeholder=" Cidade"><br><br>
+            <label for="cep">CEP:</label>
+            <input type="text"placeholder=" 21365-00>
+            <label for="bairro">Bairro:</label>
+            <input type="text"placeholder=" Bairro"><br><br>
+            <label for="rua">Rua:</label>
+            <input type="text"size="30"placeholder=" Logradouro">
+            <label for="nu">Número</label>
+            <input type="text"size="5"placeholder=" Número"><br><br>
+            <label for="comp">Complemento</label>
+            <input type="text"size="30"placeholder=" Andar, Apartamento, Bloco><br><br>
+            <input type="submit" value="Enviar"> &nbsp; &nbsp;
+            <input type="button" value="Voltar">
+
+        </form>
+    </div>
+</body>
+</html>            
+

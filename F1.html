@@ -1,0 +1,37 @@
+<!DOCTYPE html >
+<html lang=" pt-BR ">
+
+<head>
+    <meta charset=" UTF-8 ">
+    <meta http-equiv=" X-UA-Compatible " content=" IE = edge ">
+    <meta name=" viewport " content=" width = device-width, initial-scale = 1.0 ">
+    <link rel=" stylesheet " href=" css / base.css ">
+    <title> Formulário </title>
+</head>
+
+<body>
+    <div class=" principal "></div>
+    <h1>Cadastro de Clientes</h1>
+    <seção>
+        <form action="sucesso.html">
+            <input type="text" placeholder="Nome Completo" obrigatório><br>
+            <input id=" email " type=" email " placeholder=" E-mail " onclick=" acao () "><br>
+            <input type=" date " min=" 2021-05-01 "><br>
+            <input type=" text " placeholder=" CEP (somente números) " pattern=" [0-9] {8} "><br>
+            <input type=" text " placeholder=" Logradouro "><br>
+            <input type=" number " placeholder=" Número "><br>
+            <input id=" login " type=" text " placeholder=" login "><br>
+            <input class=" botao " type=" submit " value=" Enviar "><br>
+            <input class=" botao " type=" reset " value=" Limpar "><br>
+        </form>
+    </seção>
+    </div>
+</body>
+<script>
+    function acao() {
+        var x = documento.getElementById('email').valor;
+        documento.getElementById('login').innerHTML() = x;
+    }
+</script>
+
+</html>

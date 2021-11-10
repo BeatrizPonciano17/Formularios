@@ -1,0 +1,71 @@
+
+
+body{
+    background-color: greenyellow;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-top: 1rem; 
+    
+}
+h2{
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bolder;
+    color: blue;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.nomeDasInput{
+    font-family: cursive;
+    color: blue;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.campoInput{
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    height: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+section{
+    border-radius: 10px;
+    width: 100%;
+    padding: 1.75rem; 
+    max-width: 45rem;
+    box-sizing: border-box; 
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column; 
+}
+#campoAniversario{
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+button{
+    background-color: green;
+    font-weight: bolder;
+} 
+
