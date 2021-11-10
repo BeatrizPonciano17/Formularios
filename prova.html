@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device.width, initial.scale=1.0">
+    <link rel="stylesheet" type="text/Prova" href="Formulário Prova" mdeia="">
+    <title>GESTÂO</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #título {
+        font-family: sans-serif;
+        color: #101515;
+        background-color: chocolate;
+    }
+    
+    #p {
+        font-family: sans-serif;
+        color: #101515;
+    }
+    
+    fieldiset {
+        border: 0;
+    }
+    
+    #body {
+        font-family: sans-serif;
+        font-size: 1em;
+        color: #000101;
+        justify-content: left;
+    }
+    
+    input,
+    textarea,
+    button {
+        border-radius: 5px;
+    }
+    
+    .campo label {
+        color: #101515;
+        display: block;
+    }
+    
+    fieldiset.grupo .campo {
+        float: left;
+        margin-right: 1em;
+    }
+    
+    .campo input [type="text"],
+    .campo[type="login"],
+    .campo textarea {
+        padding: 0.2em;
+        border: 1px solid 273947;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+        display: block;
+    }
+    
+    .campo input:focus,
+    .campo textarea:focus {
+        background: #00abab;
+    }
+    
+    .button {
+        font-size: 1.2em;
+        background: #00abab;
+        border: 0;
+        color: #000101;
+        padding: 0.2em 0.6em;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate (-50%, -50%);
+    }
+    
+    #check {
+        display: inlene-block;
+    }
+</style>
+
+<body>
+
+    <div class="campo">
+        <h1 id="título">Sistema de gestão academica</h1>
+        <p>Manutenção dos usuários internos!</p>
+        <br>
+    </div>
+
+    <forms>
+        <fieldiset class="grupo">
+            <div class="campo">
+                <label for="login"><strong>Login</label>
+                <input type="text" name="login" id="login" required>
+            </div>
+
+            <div class="campo">
+                <label for="password"><strong>Senha</strong></label>
+                <input type="text" name="senha" id="password" required>
+            </div>
+        </fieldiset>
+
+        <div class="campo">
+            <label for="Status"><strong>Status</label>
+            <select id="Status">
+                <options selected disabled value="">Selecione</options>
+                <options>Inativo</options>
+                <options>Ativo</options>
+            </select>
+        </div>
+
+        <div class1="campo">
+            <label>Tipo</label>
+            <label>
+                <input type="radio" name="devweb" value="tecnico" checked>Técnico
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="professor">Professor
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="aluno">Aluno
+            </label>
+        </div>
+
+        <div class="campo">
+            <label for="timestamp"><strong>Data Criação</label>
+            <input type="text" name="timestamp" id="data criacao" required>
+        </div>
+
+        <div class2="campo">
+            <label>Perfil</label>
+            <label>
+                <input type="radio" name="devweb" value="convidado" checked>Convidado
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="administrador">Administrador
+            </label>
+        </div>
+
+        <div class="campo">
+            <br>
+            <label>Observações</label>
+            <textarea row="6" style="width: auto;" id="você" name="você"></textarea>
+        </div>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label>Módulos:</label>
+                <input type="checkbox" id="modulo1" name="modulo1" value="Compras">
+                <label for="modulo1">Compras</label>
+                <input type="checkbox" id="modulo2" name="modulo2" value="Biblioteca">
+                <label for="modulo2">Biblioteca</label>
+                <input type="checkbox" id="modulo3" name="modulo3" value="Acadêmico">
+                <label for="modulo3">Acadêmico</label>
+                <input type="checkbox" id="modulo4" name="modulo4" value="Documentação">
+                <label for="modulo4">Documentação</label>
+                <input type="checkbox" id="modulo5" name="modulo5" value="Recursos Humanos">
+                <label for="modulo5">Recursos Humanos</label>
+        </fieldset>
+
+        <button class="botão" type="submit">Cadastrar</button>
+        <button class="botão" type="submit">Excluir</button>
+
+    </forms>
+</body>
+
+</html>

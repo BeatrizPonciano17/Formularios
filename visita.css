@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#title {
+    font-family: sans-serif;
+    color: #F0AD6E;
+    margin-left: 10%;
+}
+
+body {
+    blackground-color: F0F8FF;
+    font-family: sans-serif;
+    font-size: 125em;
+    color: #101515;
+    margin-left: 60%;
+    margin-top: 50%;
+    justify-content: center;
+}
+
+.img {
+    margin-borrom: 1em;
+}
+
+p {
+    blackground-color: F0F8FF;
+    font-family: sans-serif;
+    font-size: 125em;
+    color: #101515;
+    margin-left: 60%;
+    margin-top: 50%;
+    justify-content: center;
+}
