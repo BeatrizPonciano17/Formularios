@@ -1,0 +1,54 @@
+caixa_eletronico:
+
+<?php
+echo "Banco On! <br>";
+$nome = "João";
+$saldo = "R$ 120,00";
+$saque = "R$ 50,00";
+$deposito = "R$ 200,00";
+//comentário
+//echo $nome;
+//echo $saldo;
+//echo $saque;
+//echo $deposito;
+echo 'Banco On ' . $saldo . ' seu saldo é '$saldo' <br>';
+echo "Banco On $saque. seu saque é $saque <br>";
+
+//Operações Matemáticas
+$ordemdecrescente {
+    valor1 = 5;
+    valor2 = 10;
+    valor3 = 50;
+}
+
+$subtraçaosaldo = 5,10 e 50;
+echo "Subtração de 5,10 e 50 = $subtraçaosaldo <br>";
+
+$saque = "valordaconta" - "valorpararetirada";
+echo "Saque de valordaconta - valorpararetirada = $saque <br>";
+
+$restoDaSubtraçao = 3 % 10;
+echo "Resto da subtraçao $restoDaSubtraçao <br>";
+
+$booleana = true;
+
+echo gettype($);
+
+?>
+
+condições_caixa:
+
+<?php
+$saque = 50;
+$nome = "João";
+
+if ($saque >= 50){
+    echo "Banco On $nome. Seja bem vindo(a)!";
+}else if($saque >= 50 && $responsavel >= 1){
+    echo "Banco On $nome.
+    Você e seu responsavel podem sacar o dinheiro";
+}else{
+    echo "Banco On $nome.
+    Só é permitada a retirada em saga por maiores de 18 anos.
+}
+?>
